@@ -4,4 +4,5 @@ window.Webflow ||= [];
 window.Webflow.push(() => {
   const name = 'Rannjan Joawn';
   greetUser(name);
+  document.body.style.backgroundColor = 'red';
 });
